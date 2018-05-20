@@ -10,42 +10,43 @@ h2 {
 
 #navbar {
   font-family: 'Georgia', Times, Times New Roman, serif;
-    overflow: hidden;
-    background-color: #ffffff;
-    height: 75px;
-    color: white;
-    /* border-color: gray;
+  overflow: hidden;
+  background-color: #ffffff;
+  height: 75px;
+  color: white;
+  /* border-color: gray;
     border-width: 5px;
     border-style: solid; */
-  }
+}
 
-  /* Navbar links */
+/* Navbar links */
+
 #navbar a {
   font-family: 'Georgia', Times, Times New Roman, serif;
-    float: right;
-    display: block;
-    background-color: #ffffff;
-    color: #777777;
-    text-align: center;
-    padding: 33px;
-    text-decoration: none;
-  }
+  float: right;
+  display: block;
+  background-color: #ffffff;
+  color: #777777;
+  text-align: center;
+  padding: 33px;
+  text-decoration: none;
+}
 
-  #left {
-    float: left;
-    display: block;
-    background-color: #ffffff;
-    color:#777777;
-    text-align: center;
-    padding: 33px;
-    text-decoration: none;
-  }
+#left {
+  float: left;
+  display: block;
+  background-color: #ffffff;
+  color: #777777;
+  text-align: center;
+  padding: 33px;
+  text-decoration: none;
+}
 
-  #sidebar {
-    float: left;
-    border-color: white;
-    border-width: 20px;
-    border-style: solid;
+#sidebar {
+  float: left;
+  border-color: white;
+  border-width: 20px;
+  border-style: solid;
 }
 
 #box {
@@ -57,9 +58,6 @@ h2 {
   margin: 100px 100px 20px 250px;
   color: black;
   padding: 25px 10px 30px 20px;
-
- 
-  
 }
 
 #box2 {
@@ -70,8 +68,6 @@ h2 {
   margin: 30px 100px 20px 250px;
   color: black;
   padding: 25px 10px 30px 20px;
- 
-  
 }
 
 .box-2 {
@@ -81,7 +77,7 @@ h2 {
 
 .box-2-1 {
   position: absolute;
-  background-color:  #4aaaa5;
+  background-color: #4aaaa5;
   text-align: center;
   font-size: large;
   color: white;
@@ -92,17 +88,15 @@ h2 {
   z-index: 3;
 }
 
-
-
 .box-3 {
   position: absolute;
- float: left;
- top: 450px;
+  float: left;
+  top: 450px;
 }
 
 .box-3-1 {
   position: absolute;
-  background-color:  #4aaaa5;
+  background-color: #4aaaa5;
   text-align: center;
   font-size: large;
   color: white;
@@ -122,7 +116,7 @@ h2 {
 
 .box-4-1 {
   position: absolute;
-  background-color:  #4aaaa5;
+  background-color: #4aaaa5;
   text-align: center;
   font-size: large;
   color: white;
@@ -142,7 +136,7 @@ h2 {
 
 .box-5-1 {
   position: absolute;
-  background-color:  #4aaaa5;
+  background-color: #4aaaa5;
   text-align: center;
   font-size: large;
   color: white;
@@ -162,7 +156,7 @@ h2 {
 
 .box-6-1 {
   position: absolute;
-  background-color:  #4aaaa5;
+  background-color: #4aaaa5;
   text-align: center;
   font-size: large;
   color: white;
@@ -174,17 +168,14 @@ h2 {
   z-index: 3;
 }
 
-.clearFix::after{
+.clearFix::after {
   content: "";
   clear: both;
   display: block;
 }
 
-
-
 body {
   background-image: url("../images/dark-grey-terrazzo.png");
-
 }
 
 .footer {
@@ -194,7 +185,7 @@ body {
   bottom: 0;
   height: 50px;
   width: 100%;
-  background-color:#666666;
+  background-color: #666666;
   color: white;
   text-align: center;
 }
@@ -206,7 +197,7 @@ label {
 input {
   background-color: #4aaaa5;
   color: white;
-  width: 9em;  
+  width: 9em;
   height: 4em;
 }
 
@@ -225,7 +216,7 @@ textarea {
   font-size: x-large;
 }
 
- /* @media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
  
   .box {width: 100%;};
   #box {width: 100%;};  
@@ -240,136 +231,59 @@ textarea {
   .box-6 {width: 100%;};
   .box-6-1 {width: 100%;};
 }  */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 980px) {}
+
+@media only screen and (max-width: 768px) {
   #box {
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: left;
-    background-color: gray;
-    width: 400px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: 20px 20px 20px 25px;
+    color: black;
+    padding: 25px 10px 30px 20px;
+  }
+  textarea {
+    width: 575px;
+    height: 50px;
+    /* 100% fill height, minus height of details label */
+  }
+  #box2 {
+    text-align: left;
+    background-color: white;
+    width: 600px;
     height: 800px;
-    /* margin: 100px 100px 400px 250px; */
-    color: white;
-   
-
+    margin: 20px 20px 20px 25px;
+    color: black;
+    padding: 25px 10px 30px 20px;
+  }
 }
 
-#sidebar {
-  float: left;
-  border-color: white;
-  border-width: 20px;
-  border-style: solid;
-}
-
-#box2 {
-  text-align: left;
-  background-color: white;
-  width: 460px;
-  height: 100px;
-  margin: 30px 100px 20px 250px;
-  color: black;
-  padding: 25px 10px 30px 20px;
- 
-  
-}
-
-.box-2 {
-  position: absolute;
-  float: left;
-}
-
-.box-2-1 {
-  position: absolute;
-  background-color:  #4aaaa5;
-  text-align: center;
-  font-size: large;
-  color: white;
-  top: 75px;
-  float: left;
-  width: 100px;
-  height: 15px;
-  z-index: 3;
-}
-
-
-
-.box-3 {
-  position: absolute;
- float: left;
- top: 225px;
-}
-
-.box-3-1 {
-  position: absolute;
-  background-color:  #4aaaa5;
-  text-align: center;
-  font-size: large;
-  color: white;
-  top: 75px;
-  float: left;
-  width: 100px;
-  height: 15px;
-  z-index: 3;
-}
-
-.box-4 {
-  position: absolute;
-  float: left;
-  top: 225px;
-  right: 225px;
-}
-
-.box-4-1 {
-  position: absolute;
-  background-color:  #4aaaa5;
-  text-align: center;
-  font-size: large;
-  color: white;
-  bottom: 132px;
-  right: 120px;
-  float: left;
-  width: 100px;
-  height: 15px;
-  z-index: 3;
-}
-
-.box-5 {
-  position: absolute;
-  float: left;
-  left: 275px;
-}
-
-.box-5-1 {
-  position: absolute;
-  background-color:  #4aaaa5;
-  text-align: center;
-  font-size: large;
-  color: white;
-  top: 210px;
-  float: left;
-  width: 100px;
-  height: 15px;
-  z-index: 3;
-}
-
-.box-6 {
-  position: absolute;
-  float: left;
-  top: 225px;
-  left: 275px;
-}
-
-.box-6-1 {
-  position: absolute;
-  background-color:  #4aaaa5;
-  text-align: center;
-  font-size: large;
-  color: white;
-  top: 75px;
-  left: 120px;
-  float: left;
-  width: 100px;
-  height: 15px;
-  z-index: 3;
-}
-
+@media only screen and (max-width: 640px) {
+  #box {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: left;
+    background-color: white;
+    width: 300px;
+    height: 800px;
+    margin: 20px 20px 20px 25px;
+    color: black;
+    padding: 25px 10px 30px 20px;
+  }
+  textarea {
+    width: 275px;
+    height: 50px;
+    /* 100% fill height, minus height of details label */
+  }
+  #box2 {
+    text-align: left;
+    background-color: white;
+    width: 300px;
+    height: 800px;
+    margin: 20px 20px 20px 25px;
+    color: black;
+    padding: 25px 10px 30px 20px;
+  }
 }
